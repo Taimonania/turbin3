@@ -1,4 +1,0 @@
-[workspace]
-members = [
-    "prereqs/prereq-2",
-]
