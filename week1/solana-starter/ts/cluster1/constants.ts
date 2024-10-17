@@ -1,0 +1,3 @@
+export const TAIMO_TOKEN_DECIMALS = 1_000_000n;
+export const TAIMO_MINT_ADDRESS =
+  "FUYXdt7JvuctJzUYFCjUQscUeK26vFNCE6zt9r5D1xnC";
