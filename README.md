@@ -47,15 +47,13 @@ Learned how to create and mint an NFT using the metaplex standard. Minted a bunc
 
 ### Create NFT with Metadata and Mint it
 
-I created many different NFTs, here is the best:
+I created many different NFTs, here is the best. [Click here(https://explorer.solana.com/tx/rBAFuxhvPfVqSQLLnV4LZJBoL2xTdniT23Lg8c3T9tTF8Wpcj4UVotjDU6xrPBZtDCDqyzeZPLfRiu3HQ8WUgnx?cluster=devnet)] for the mint transaction.
 
 #### Turbin3 Rug
 
 <img src="./assets/images/readme/turbin3-rug.png" alt="Token TAIMO" width="200" style="padding-bottom: 10px;"/>
 
 NFT Address: `GzGMnubLCMhDrJyF81k8c2C5d8P5aLdRKxAWJEXXDQr1`
-
-####
 
 Related files:
 
