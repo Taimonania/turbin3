@@ -1,6 +1,6 @@
 import { Keypair, PublicKey, Connection, Commitment } from "@solana/web3.js";
 import { getOrCreateAssociatedTokenAccount, mintTo } from "@solana/spl-token";
-import wallet from "../wba-wallet.json";
+import wallet from "../../../.wallets/wba.wallet.json";
 import { TAIMO_MINT_ADDRESS, TAIMO_TOKEN_DECIMALS } from "./constants";
 
 // Import our keypair from the wallet file
