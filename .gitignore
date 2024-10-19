@@ -10,6 +10,7 @@ yarn-error.log*
 # Solana SDK
 *.keypair.json
 *.wallet.json
+.wallets
 
 # Logs
 logs
