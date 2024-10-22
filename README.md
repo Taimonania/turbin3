@@ -62,3 +62,11 @@ Related files:
 - `solana-starter/ts/cluster1/nft_mint.ts`
 
 </details>
+
+## Week 2: Class 1
+
+Today we implemented a vault program that stores user's SOL. First time we actually started class by running `anchor init ...` 🚀
+
+Related files:
+
+- `anchor-vault/programs/anchor-vault/src/lib.rs`
