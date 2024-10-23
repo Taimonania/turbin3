@@ -70,3 +70,11 @@ Today we implemented a vault program that stores user's SOL. First time we actua
 Related files:
 
 - `anchor-vault/programs/anchor-vault/src/lib.rs`
+
+## Week 2: Class 2
+
+Today we implemented an escrow account that facilitates a trustless trade between two wallets.
+
+Related files:
+
+- `escrow/programs/escrow/src/*`

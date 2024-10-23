@@ -94,7 +94,7 @@ impl<'info> Operations<'info> {
         let data_len = self.vault.to_account_info().data_len();
         let min_rent_exemption = Rent::get()?.minimum_balance(data_len);
 
-        if(self.vault.lamports() + amount < min_rent_exemption) {
+        if self.vault.lamports() + amount < min_rent_exemption {
             return Err(ErrorCode::InsufficientFundsForRentExemption.into());
         }
 
