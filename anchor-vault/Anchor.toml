@@ -5,7 +5,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-anchor_vault = "UAnQYhGhp7kSfrKtQ7xS5ArSC86Lf7S9TS785mmJsto"
+anchor_vault = "Jp4mdejcrdQtiEgYqg1AZVo8MbzEnQZGwkB8kpdevdz"
 
 [registry]
 url = "https://api.apr.dev"
@@ -16,3 +16,6 @@ wallet = "~/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+[test]
+startup_wait = 20000  # Wait for 20 seconds

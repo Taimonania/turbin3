@@ -61,8 +61,6 @@ Related files:
 - `solana-starter/ts/cluster1/nft_metadata.ts`
 - `solana-starter/ts/cluster1/nft_mint.ts`
 
-</details>
-
 ## Week 2: Class 1
 
 Today we implemented a vault program that stores user's SOL. First time we actually started class by running `anchor init ...` 🚀
@@ -86,3 +84,5 @@ Introduction to how we create our Capstone Project.
 <img src="./assets/images/capstone-presentation/timeline.png" width="600" style="padding-bottom: 10px;"/>
 
 What we need to hand in in the end: **A fully functioning program on devnet**. Focus is on Anchor building and TypeScript testing.
+
+</details>
