@@ -78,3 +78,11 @@ Today we implemented an escrow account that facilitates a trustless trade betwee
 Related files:
 
 - `escrow/programs/escrow/src/*`
+
+## Week 2, Class 3
+
+Introduction to how we create our Capstone Project.
+
+<img src="./assets/images/capstone-presentation/timeline.png" width="600" style="padding-bottom: 10px;"/>
+
+What we need to hand in in the end: **A fully functioning program on devnet**. Focus is on Anchor building and TypeScript testing.
