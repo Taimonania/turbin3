@@ -85,4 +85,12 @@ Introduction to how we create our Capstone Project.
 
 What we need to hand in in the end: **A fully functioning program on devnet**. Focus is on Anchor building and TypeScript testing.
 
+## Week 3, Class 1+2
+
+We learned how to do NFT staking
+
+Related files:
+
+- `nft-staking/programs/nft-staking/src/*`
+
 </details>
