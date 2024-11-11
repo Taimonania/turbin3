@@ -1,0 +1,8 @@
+{
+  "rust-analyzer.linkedProjects": [
+    "./prereqs/prereq-2/Cargo.toml",
+    "./anchor-vault/Cargo.toml",
+    "./escrow/Cargo.toml",
+    "./nft-staking/Cargo.toml"
+  ]
+}
