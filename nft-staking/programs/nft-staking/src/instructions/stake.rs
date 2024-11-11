@@ -41,13 +41,13 @@ pub struct Stake<'info> {
     pub master_edition: Account<'info, MasterEditionAccount>,
     #[account(
         seeds = [b"config"],
-        bump = stake_config.bump,
+        bump = config_account.bump,
     )]
-    pub stake_config: Account<'info, StakeConfig>,
+    pub config_account: Account<'info, StakeConfig>,
     #[account(
         init,
         payer = user,
-        seeds = [b"stake", stake_config.key().as_ref(), mint.key().as_ref()],
+        seeds = [b"stake", config_account.key().as_ref(), mint.key().as_ref()],
         bump,
         space = StakeAccount::INIT_SPACE,
     )]
@@ -66,7 +66,7 @@ pub struct Stake<'info> {
 impl<'info> Stake<'info> {
     pub fn stake(&mut self, bumps: &StakeBumps) -> Result<()> {
         require!(
-            self.user_account.amount_staked < self.stake_config.max_stake,
+            self.user_account.amount_staked < self.config_account.max_stake,
             StakeError::MaxStakeReached
         );
         let cpi_program = self.token_program.to_account_info();
@@ -87,9 +87,9 @@ impl<'info> Stake<'info> {
 
         let seeds = [
             b"stake",
-            self.stake_config.to_account_info().key.as_ref(),
+            self.config_account.to_account_info().key.as_ref(),
             mint.to_account_info().key.as_ref(),
-            &[self.stake_config.bump],
+            &[self.config_account.bump],
         ];
         let signer_seeds = &[&seeds[..]];
 

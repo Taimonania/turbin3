@@ -47,7 +47,7 @@ Learned how to create and mint an NFT using the metaplex standard. Minted a bunc
 
 ### Create NFT with Metadata and Mint it
 
-I created many different NFTs, here is the best. [Click here(https://explorer.solana.com/tx/rBAFuxhvPfVqSQLLnV4LZJBoL2xTdniT23Lg8c3T9tTF8Wpcj4UVotjDU6xrPBZtDCDqyzeZPLfRiu3HQ8WUgnx?cluster=devnet)] for the mint transaction.
+I created many different NFTs, here is the best. [Click here](https://explorer.solana.com/tx/rBAFuxhvPfVqSQLLnV4LZJBoL2xTdniT23Lg8c3T9tTF8Wpcj4UVotjDU6xrPBZtDCDqyzeZPLfRiu3HQ8WUgnx?cluster=devnet) for the mint transaction.
 
 #### Turbin3 Rug
 
@@ -92,5 +92,13 @@ We learned how to do NFT staking
 Related files:
 
 - `nft-staking/programs/nft-staking/src/*`
+
+## Week 3, Class 3
+
+This Class is about the Capstone. First we learn about User Stories, then we share ideas among each others.
+
+### User Stories
+
+Template on Notion: [Click here](https://scarce-porter-c7b.notion.site/User-Story-Template-12f1229a2fab806ba988d129038a02ee)
 
 </details>

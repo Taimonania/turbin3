@@ -32,7 +32,7 @@ target/
 .env.*.local
 
 # IDEs and editors
-.vscode/
+# .vscode/
 .idea/
 *.suo
 *.ntvs*

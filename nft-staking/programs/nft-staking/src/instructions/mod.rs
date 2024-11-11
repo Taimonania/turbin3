@@ -6,3 +6,9 @@ use initialize_config::*;
 
 pub mod stake;
 use stake::*;
+
+pub mod unstake;
+use unstake::*;
+
+pub mod claim;
+use claim::*;

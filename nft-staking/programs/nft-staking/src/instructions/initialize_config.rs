@@ -14,14 +14,14 @@ pub struct InitializeConfig<'info> {
         space = StakeConfig::INIT_SPACE,
         bump
     )]
-    pub stake_config: Account<'info, StakeConfig>,
+    pub config_account: Account<'info, StakeConfig>,
     #[account(
         init,
         payer = admin,
-        seeds = [b"rewards".as_ref(), stake_config.key().as_ref()],
+        seeds = [b"rewards".as_ref(), config_account.key().as_ref()],
         bump,
         mint::decimals = 6,
-        mint::authority = stake_config,
+        mint::authority = config_account,
     )]
     pub rewards_mint: Account<'info, Mint>,
     pub system_program: Program<'info, System>,
@@ -36,12 +36,12 @@ impl<'info> InitializeConfig<'info> {
         freeze_period: u32,
         bumps: &InitializeConfigBumps,
     ) -> Result<()> {
-        self.stake_config.set_inner(StakeConfig {
+        self.config_account.set_inner(StakeConfig {
             points_per_stake,
             max_stake,
             freeze_period,
             rewards_bump: bumps.rewards_mint,
-            bump: bumps.stake_config,
+            bump: bumps.config_account,
         });
         Ok(())
     }
