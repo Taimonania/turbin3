@@ -1,4 +1,4 @@
-::: mermaid
+```mermaid
 classDiagram
     class TimeTrigger {
         +owner: Pubkey
@@ -10,5 +10,4 @@ classDiagram
         +interval
         +stop_after
     }
-
-:::
+```
